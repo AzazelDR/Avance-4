@@ -1,0 +1,89 @@
+@font-face {
+    font-family: BS;
+    src: url("../fonts/bs.ttf");
+}
+
+@font-face {
+    font-family: BSbold;
+    src: url("../fonts/bsb.ttf");
+}
+
+* {
+    font-family: "BS";
+    transition: 0.2s;
+}
+
+.container {
+    display: block;
+    float: left;
+    margin-left: 35%;
+    margin-top: 20%;
+    padding-bottom: 20px;
+    background: #940000;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (max-width:991px) {
+    .container {
+        display: block;
+        float: none;
+        margin-left: 0;
+    }
+}
+
+.mx-auto {
+    margin-bottom: -68px;
+}
+
+h1 {
+    font-family: "BSbold";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    margin-top: -15px;
+}
+
+.navbar {
+    background-image: url("../img/imgheader.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    right: 0;
+}
+
+.navbar-toggler {
+    background-color: rgba(46, 30, 30, 0.164);
+}
+
+body {
+    background-color: #ededed;
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#offcanvasNavbar {
+    background: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}
+
+#ul li a {
+    color: white;
+}
+
+#ico {
+    color: white;
+    font-size: 1.3rem;
+    align-items: center;
+    margin-right: 10px;
+}
